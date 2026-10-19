@@ -1,13 +1,11 @@
-# QProtFuse
+<h1 align="center">QProtFuse</h1>
 
-Code for training QProtFuse and evaluating protein-to-protein retrieval,
-protein-to-metadata retrieval, and two-stage reranking on Prot-Inst-OOD.
+QProtFuse uses instruction-guided feature fusion to improve protein retrieval and retrieval-augmented function annotation.
 
 ## Data preparation
 
-We precompute protein and text representations for efficient training and
-retrieval. These representations can alternatively be computed on the fly using
-the corresponding encoders; the provided scripts use precomputed caches.
+We precompute protein and text features for efficient training and
+retrieval.
 
 Download and preparation instructions are in the READMEs for
 [Prot-Inst-OOD](data/Prot-Inst-OOD/README.md),
@@ -22,8 +20,8 @@ bash train.sh runs/qprotfuse 20260929
 ```
 
 The launcher defaults to 30 epochs and four GPUs. Adjust `--devices` and
-`--batch-size` in `train.sh` for your hardware. Use a new output directory;
-the trained weights are saved as `runs/qprotfuse/last.ckpt`.
+`--batch-size` in `train.sh` for your hardware.
+The trained weights are saved as `runs/qprotfuse/last.ckpt`.
 
 ## Retrieval evaluation
 
