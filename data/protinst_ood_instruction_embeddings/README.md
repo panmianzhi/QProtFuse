@@ -1,9 +1,9 @@
-# Precomputed instruction embeddings
+# Instruction embeddings
 
-A Google Drive download link will be added here when the artifacts are
-available. The actual embeddings are not included in Git.
+Download the instruction embeddings from the shared
+[Google Drive folder](https://drive.google.com/drive/folders/1Rln_d6gRqoss67S57zjGLA6eYU5xDmrI?usp=sharing).
 
-Download and extract these files directly into this directory:
+Place the following files directly in this directory:
 
 ```text
 instructions.json
@@ -11,10 +11,5 @@ embeddings.npy
 manifest.json
 ```
 
-The vectors were generated with `text-embedding-3-large` and stored as a
-float32 NumPy array of shape `[N, 3072]`. `instructions.json` contains the
-instruction records; each contiguous `id` identifies the corresponding row
-in `embeddings.npy`. The manifest specifies the model and completion status.
-
-Training and retrieval read this cache directly and make no API requests.
-Keep the catalog, array, and manifest together from the same download.
+Keep the three files from the same download together. Training and retrieval
+read this cache without making API requests.
