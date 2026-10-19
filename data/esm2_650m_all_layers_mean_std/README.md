@@ -1,7 +1,6 @@
 # ESM features
 
-Generate these features locally after downloading Prot-Inst-OOD. No feature
-download is provided.
+Generate these features locally after downloading Prot-Inst-OOD.
 
 From the repository root, run:
 

@@ -1,6 +1,6 @@
 <h1 align="center">QProtFuse</h1>
 
-QProtFuse uses instruction-guided feature fusion to improve protein retrieval and retrieval-augmented function annotation.
+QProtFuse uses instruction-guided layerwise feature fusion.
 
 ## Data preparation
 
