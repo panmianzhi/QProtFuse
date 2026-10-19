@@ -1,0 +1,4 @@
+torch==2.6.0
+pytorch-lightning==2.2.0
+numpy==1.26.4
+transformers==4.51.3

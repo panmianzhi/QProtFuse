@@ -1,0 +1,25 @@
+# Generated training and retrieval artifacts.
+runs/
+logs/
+data_ignore/
+*.ckpt
+
+# Data are downloaded or generated locally; publish setup notes only.
+data/**/*
+!data/**/
+!data/**/README.md
+
+# Python environments and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Editor and operating-system files.
+.idea/
+.vscode/
+.DS_Store
