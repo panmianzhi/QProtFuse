@@ -1,5 +1,8 @@
 # Instruction embeddings
 
+These embeddings were precomputed using OpenAI's `text-embedding-3-large`
+model, with 3,072 dimensions per instruction.
+
 Download the instruction embeddings from the shared
 [Google Drive folder](https://drive.google.com/drive/folders/1Rln_d6gRqoss67S57zjGLA6eYU5xDmrI?usp=sharing).
 
