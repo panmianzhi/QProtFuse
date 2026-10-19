@@ -1,6 +1,6 @@
 <h1 align="center">QProtFuse</h1>
 
-QProtFuse uses instruction-guided layerwise feature fusion.
+<p align="center">QProtFuse uses instruction-guided layerwise feature fusion of PLMs to improve protein retrieval.</p>
 
 ## Data preparation
 
