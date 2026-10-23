@@ -2,6 +2,12 @@
 
 <p align="center">QProtFuse uses instruction-guided layerwise feature fusion of PLMs to improve protein retrieval.</p>
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2610.30180">
+    <img src="https://img.shields.io/badge/arXiv-2601.09285-b31b1b.svg" alt="arXiv">
+  </a>
+</p>
+
 ## Data preparation
 
 We precompute protein and text features for efficient training and
